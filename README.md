@@ -1,0 +1,2 @@
+# NewsCaster
+Coding Exercise
