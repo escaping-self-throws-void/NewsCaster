@@ -13,12 +13,13 @@ struct Injected<Dependency> {
     private var dependency: Dependency
     
     init(_ dependencyType: DependencyType = .new) {
-        guard let dependency: Dependency = Container.resolve(dependencyType: dependencyType) else {
-            fatalError("No dependency of type \(String(describing: Dependency.self)) registered!")
+        guard let dependency = Container.resolve(dependencyType: dependencyType, type: Dependency.self) else {
+            fatalError("No dependency of type \(String(describing: Dependency.Type.self)) registered!")
         }
         
         self.dependency = dependency
     }
+    
     var wrappedValue: Dependency {
         get { dependency }
         mutating set { dependency = newValue }

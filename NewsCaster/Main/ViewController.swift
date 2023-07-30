@@ -12,7 +12,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
-        // Do any additional setup after loading the view.
+       
+        let api = API()
+        
+        Task {
+            let request = Endpoint.search(12)
+            let data: MemesData? = try? await api.perform(request: request)
+            print(data?.memes.first?.title)
+            
+        }
+        
+        
     }
 
 
