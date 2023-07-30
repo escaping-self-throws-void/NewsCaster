@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Networking
 
 public struct API: APIServicable {
     @Injected private var network: Networking

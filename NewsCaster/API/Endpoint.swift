@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Networking
 
 public enum Endpoint {
     case search(Int)
