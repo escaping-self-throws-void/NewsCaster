@@ -10,6 +10,7 @@ import Networking
 
 public enum Endpoint {
     case search(Int)
+    
 }
 
 extension Endpoint: APIRequest {

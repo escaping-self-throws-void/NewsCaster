@@ -16,8 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Container.register(type: Networking.self, Network())
-        Container.register(type: Coder.self, JSONCoder())
+        DependencyContainer.register(type: Networking.self, implementer: Network())
         return true
     }
 

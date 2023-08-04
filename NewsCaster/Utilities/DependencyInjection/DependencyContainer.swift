@@ -1,5 +1,5 @@
 //
-//  Container.swift
+//  DependencyContainer.swift
 //  NewsCaster
 //
 //  Created by Paul Matar on 08/06/2023.
@@ -7,14 +7,14 @@
 
 import Foundation
 
-final class Container {
+final class DependencyContainer {
     private static var cache: [String: Any] = [:]
     private static var generators: [String: () -> Any] = [:]
     
     static func register<Dependency>(
         type: Dependency.Type,
         dependencyType: DependencyType = .automatic,
-        _ generator: @autoclosure @escaping () -> Dependency
+        implementer generator: @autoclosure @escaping () -> Dependency
     ) {
         let key = String(describing: type.self)
         generators[key] = generator

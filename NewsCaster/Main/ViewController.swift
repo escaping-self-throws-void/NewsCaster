@@ -6,20 +6,25 @@
 //
 
 import UIKit
+import Logs
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
-       
-        let api = API()
+        let d = JSONDecoder()
+        d.keyDecodingStrategy = .convertFromSnakeCase
+        let api = API(decoder: d)
         
         Task {
             let request = Endpoint.search(12)
-            let data: MemesData? = try? await api.perform(request: request)
-            print(data?.memes.first?.title)
-            
+            do {
+                let data: MemesData? = try await api.perform(request: request)
+                Logs<Self>.log(data?.memes.first?.title)
+            } catch {
+                Logs<Self>.log(error)
+            }
         }
         
         

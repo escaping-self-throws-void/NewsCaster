@@ -10,18 +10,15 @@ import Networking
 
 public struct API: APIServicable {
     @Injected private var network: Networking
-    @Injected private var coder: Coder
-
+    private let decoder: JSONDecoder
+    
+    public init(decoder: JSONDecoder = .init()) {
+        self.decoder = decoder
+    }
+    
     public func perform<T: Decodable>(request: APIRequest) async throws -> T {
         let response = try await network.send(request)
-        guard let data = response.data else {
-            throw NetworkError.missingBodyData
-        }
         
-        guard let result: T = coder.decode(from: data) else {
-            throw NetworkError.decodingError
-        }
-        
-        return result
+        return try decoder.decode(T.self, from: response.data)
     }
 }
