@@ -7,11 +7,11 @@
 
 import Foundation
 
-final class DependencyContainer {
+final public class DependencyContainer {
     private static var cache: [String: Any] = [:]
     private static var generators: [String: () -> Any] = [:]
     
-    static func register<Dependency>(
+    public static func register<Dependency>(
         type: Dependency.Type,
         dependencyType: DependencyType = .automatic,
         implementer generator: @autoclosure @escaping () -> Dependency
@@ -24,7 +24,7 @@ final class DependencyContainer {
         }
     }
     
-    static func resolve<Dependency>(
+    public static func resolve<Dependency>(
         dependencyType: DependencyType = .automatic,
         type: Dependency.Type
     ) -> Dependency? {

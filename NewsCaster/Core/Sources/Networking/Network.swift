@@ -42,7 +42,10 @@ extension Network: Networking {
 // MARK: - Private methods
 extension Network {
     private func buildURLRequest(from request: NetworkRequest) throws -> URLRequest {
-        guard var components = URLComponents(url: request.baseURL, resolvingAgainstBaseURL: true) else {
+        guard let url = request.baseURL else {
+            throw NetworkError.invalidURL
+        }
+        guard var components = URLComponents(url: url, resolvingAgainstBaseURL: true) else {
             throw NetworkError.invalidURL
         }
         

@@ -7,16 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF0E76162A327F7200BBE80C /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0E76132A327F7200BBE80C /* Injected.swift */; };
-		CF0E76172A327F7200BBE80C /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0E76142A327F7200BBE80C /* DependencyContainer.swift */; };
-		CF0E76182A327F7200BBE80C /* DependencyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0E76152A327F7200BBE80C /* DependencyType.swift */; };
-		CF2A783F2A77064A009F2374 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2A783E2A77064A009F2374 /* Service.swift */; };
-		CF2A78462A7D5DEA009F2374 /* Logs in Frameworks */ = {isa = PBXBuildFile; productRef = CF2A78452A7D5DEA009F2374 /* Logs */; };
-		CF2A78482A7D5DED009F2374 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = CF2A78472A7D5DED009F2374 /* Networking */; };
-		CFF2AC482A753F0200AC8362 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF2AC472A753F0200AC8362 /* Endpoint.swift */; };
-		CFF2AC4C2A7554A100AC8362 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF2AC4B2A7554A100AC8362 /* API.swift */; };
-		CFF2AC4E2A7554AA00AC8362 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF2AC4D2A7554AA00AC8362 /* APIRequest.swift */; };
-		CFF2AC592A759CFA00AC8362 /* APIServicable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF2AC582A759CFA00AC8362 /* APIServicable.swift */; };
+		CF214A8D2A7ED9810020C52F /* APIConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CF214A8C2A7ED9810020C52F /* APIConfig.xcconfig */; };
+		CFA29EB52A7EB9900035E43F /* Logs in Frameworks */ = {isa = PBXBuildFile; productRef = CFA29EB42A7EB9900035E43F /* Logs */; };
+		CFA29EB72A7EB9930035E43F /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = CFA29EB62A7EB9930035E43F /* Networking */; };
+		CFA29EB92A7EBB850035E43F /* API in Frameworks */ = {isa = PBXBuildFile; productRef = CFA29EB82A7EBB850035E43F /* API */; };
+		CFA29EBB2A7ECA470035E43F /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = CFA29EBA2A7ECA470035E43F /* Utilities */; };
 		CFF34B2F2A325B8300BAAE8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF34B2E2A325B8300BAAE8A /* AppDelegate.swift */; };
 		CFF34B312A325B8300BAAE8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF34B302A325B8300BAAE8A /* SceneDelegate.swift */; };
 		CFF34B332A325B8300BAAE8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF34B322A325B8300BAAE8A /* ViewController.swift */; };
@@ -46,15 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CF0E76132A327F7200BBE80C /* Injected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
-		CF0E76142A327F7200BBE80C /* DependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
-		CF0E76152A327F7200BBE80C /* DependencyType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyType.swift; sourceTree = "<group>"; };
-		CF2A783E2A77064A009F2374 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		CF2A78402A7D2C44009F2374 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
-		CFF2AC472A753F0200AC8362 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
-		CFF2AC4B2A7554A100AC8362 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		CFF2AC4D2A7554AA00AC8362 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
-		CFF2AC582A759CFA00AC8362 /* APIServicable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServicable.swift; sourceTree = "<group>"; };
+		CF214A8C2A7ED9810020C52F /* APIConfig.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = APIConfig.xcconfig; sourceTree = "<group>"; };
+		CFA29EB22A7EB4280035E43F /* Shared */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Shared; path = NewsCaster/Shared; sourceTree = "<group>"; };
+		CFA29EB32A7EB6F90035E43F /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Core; path = NewsCaster/Core; sourceTree = "<group>"; };
 		CFF34B2B2A325B8300BAAE8A /* NewsCaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsCaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF34B2E2A325B8300BAAE8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFF34B302A325B8300BAAE8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,8 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2A78482A7D5DED009F2374 /* Networking in Frameworks */,
-				CF2A78462A7D5DEA009F2374 /* Logs in Frameworks */,
+				CFA29EB92A7EBB850035E43F /* API in Frameworks */,
+				CFA29EBB2A7ECA470035E43F /* Utilities in Frameworks */,
+				CFA29EB72A7EB9930035E43F /* Networking in Frameworks */,
+				CFA29EB52A7EB9900035E43F /* Logs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +102,7 @@
 				CFF34B2E2A325B8300BAAE8A /* AppDelegate.swift */,
 				CFF34B302A325B8300BAAE8A /* SceneDelegate.swift */,
 				CFF34B3C2A325B8400BAAE8A /* LaunchScreen.storyboard */,
+				CF214A8C2A7ED9810020C52F /* APIConfig.xcconfig */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -123,48 +115,11 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		CF0E76112A327F4F00BBE80C /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				CF0E76122A327F7200BBE80C /* DependencyInjection */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		CF0E76122A327F7200BBE80C /* DependencyInjection */ = {
-			isa = PBXGroup;
-			children = (
-				CF0E76132A327F7200BBE80C /* Injected.swift */,
-				CF0E76142A327F7200BBE80C /* DependencyContainer.swift */,
-				CF0E76152A327F7200BBE80C /* DependencyType.swift */,
-			);
-			path = DependencyInjection;
-			sourceTree = "<group>";
-		};
 		CF2A783B2A7693A3009F2374 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CFF2AC362A75192000AC8362 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		CFF2AC3E2A7522EE00AC8362 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				CFF2AC472A753F0200AC8362 /* Endpoint.swift */,
-				CF2A783E2A77064A009F2374 /* Service.swift */,
-				CFF2AC4B2A7554A100AC8362 /* API.swift */,
-				CFF2AC582A759CFA00AC8362 /* APIServicable.swift */,
-				CFF2AC4D2A7554AA00AC8362 /* APIRequest.swift */,
-			);
-			path = API;
 			sourceTree = "<group>";
 		};
 		CFF2AC5C2A7683DB00AC8362 /* Extensions */ = {
@@ -177,7 +132,8 @@
 		CFF34B222A325B8300BAAE8A = {
 			isa = PBXGroup;
 			children = (
-				CF2A78402A7D2C44009F2374 /* Core */,
+				CFA29EB32A7EB6F90035E43F /* Core */,
+				CFA29EB22A7EB4280035E43F /* Shared */,
 				CFF34B2D2A325B8300BAAE8A /* NewsCaster */,
 				CFF34B472A325B8400BAAE8A /* NewsCasterTests */,
 				CFF34B512A325B8500BAAE8A /* NewsCasterUITests */,
@@ -201,10 +157,7 @@
 			children = (
 				CFF2AC5C2A7683DB00AC8362 /* Extensions */,
 				CF0E760F2A327F2A00BBE80C /* SupportingFiles */,
-				CFF2AC3E2A7522EE00AC8362 /* API */,
-				CFF2AC362A75192000AC8362 /* Domain */,
 				CF0E76102A327F4000BBE80C /* Main */,
-				CF0E76112A327F4F00BBE80C /* Utilities */,
 				CF0E760E2A327F1C00BBE80C /* Resources */,
 				CFF34B3F2A325B8400BAAE8A /* Info.plist */,
 				CFF34B372A325B8300BAAE8A /* NewsCaster.xcdatamodeld */,
@@ -246,8 +199,10 @@
 			);
 			name = NewsCaster;
 			packageProductDependencies = (
-				CF2A78452A7D5DEA009F2374 /* Logs */,
-				CF2A78472A7D5DED009F2374 /* Networking */,
+				CFA29EB42A7EB9900035E43F /* Logs */,
+				CFA29EB62A7EB9930035E43F /* Networking */,
+				CFA29EB82A7EBB850035E43F /* API */,
+				CFA29EBA2A7ECA470035E43F /* Utilities */,
 			);
 			productName = NewsCaster;
 			productReference = CFF34B2B2A325B8300BAAE8A /* NewsCaster.app */;
@@ -338,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFF34B3E2A325B8400BAAE8A /* LaunchScreen.storyboard in Resources */,
+				CF214A8D2A7ED9810020C52F /* APIConfig.xcconfig in Resources */,
 				CFF34B3B2A325B8400BAAE8A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,17 +319,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFF2AC592A759CFA00AC8362 /* APIServicable.swift in Sources */,
-				CF0E76162A327F7200BBE80C /* Injected.swift in Sources */,
-				CFF2AC482A753F0200AC8362 /* Endpoint.swift in Sources */,
-				CF0E76182A327F7200BBE80C /* DependencyType.swift in Sources */,
-				CFF2AC4C2A7554A100AC8362 /* API.swift in Sources */,
-				CF0E76172A327F7200BBE80C /* DependencyContainer.swift in Sources */,
 				CFF34B332A325B8300BAAE8A /* ViewController.swift in Sources */,
-				CF2A783F2A77064A009F2374 /* Service.swift in Sources */,
 				CFF34B2F2A325B8300BAAE8A /* AppDelegate.swift in Sources */,
 				CFF34B392A325B8300BAAE8A /* NewsCaster.xcdatamodeld in Sources */,
-				CFF2AC4E2A7554AA00AC8362 /* APIRequest.swift in Sources */,
 				CFF34B312A325B8300BAAE8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -526,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -538,6 +486,7 @@
 		};
 		CFF34B592A325B8500BAAE8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF214A8C2A7ED9810020C52F /* APIConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -550,6 +499,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,6 +515,7 @@
 		};
 		CFF34B5A2A325B8500BAAE8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF214A8C2A7ED9810020C52F /* APIConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -577,6 +528,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -708,13 +660,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CF2A78452A7D5DEA009F2374 /* Logs */ = {
+		CFA29EB42A7EB9900035E43F /* Logs */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Logs;
 		};
-		CF2A78472A7D5DED009F2374 /* Networking */ = {
+		CFA29EB62A7EB9930035E43F /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Networking;
+		};
+		CFA29EB82A7EBB850035E43F /* API */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = API;
+		};
+		CFA29EBA2A7ECA470035E43F /* Utilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Utilities;
 		};
 /* End XCSwiftPackageProductDependency section */
 

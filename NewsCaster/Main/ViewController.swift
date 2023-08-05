@@ -7,6 +7,7 @@
 
 import UIKit
 import Logs
+import API
 
 class ViewController: UIViewController {
     
@@ -18,10 +19,10 @@ class ViewController: UIViewController {
         let api = API(decoder: d)
         
         Task {
-            let request = Endpoint.search(12)
+            let request = HeadlinesRequest.topHeadlinesUS
             do {
-                let data: MemesData? = try await api.perform(request: request)
-                Logs<Self>.log(data?.memes.first?.title)
+                let data: Data = try await api.perform(request: request)
+                Logs<Self>.log(data.debugDescription)
             } catch {
                 Logs<Self>.log(error)
             }

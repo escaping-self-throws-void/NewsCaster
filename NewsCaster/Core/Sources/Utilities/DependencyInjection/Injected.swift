@@ -8,11 +8,11 @@
 import Foundation
 
 @propertyWrapper
-struct Injected<Dependency> {
+public struct Injected<Dependency> {
     
     private var dependency: Dependency
     
-    init(_ dependencyType: DependencyType = .new) {
+    public init(_ dependencyType: DependencyType = .new) {
         guard let dependency = DependencyContainer.resolve(dependencyType: dependencyType, type: Dependency.self) else {
             fatalError("No dependency of type \(String(describing: Dependency.Type.self)) registered!")
         }
@@ -20,9 +20,8 @@ struct Injected<Dependency> {
         self.dependency = dependency
     }
     
-    var wrappedValue: Dependency {
+    public var wrappedValue: Dependency {
         get { dependency }
         mutating set { dependency = newValue }
     }
-    
 }

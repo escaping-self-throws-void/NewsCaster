@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Utilities
 import Networking
 
 public struct API: APIServicable {

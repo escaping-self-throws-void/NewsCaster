@@ -5,18 +5,20 @@ import PackageDescription
 
 let package = Package(
     name: "Core",
-    platforms: [.iOS(.v16)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(name: "Networking", targets: ["Networking"] ),
         .library(name: "Logs", targets: ["Logs"]),
+        .library(name: "Utilities", targets: ["Utilities"])
     ],
     dependencies: [
     ],
     targets: [
         .target(name: "Networking", dependencies: ["Logs"]),
         .target(name: "Logs"),
-//        .testTarget(
-//            name: "CoreTests",
-//            dependencies: ["Core"]),
+        .target(name: "Utilities"),
+        .testTarget(
+            name: "CoreTests",
+            dependencies: ["Networking"]),
     ]
 )

@@ -1,0 +1,12 @@
+//
+//  APIConfig.xcconfig
+//  NewsCaster
+//
+//  Created by Paul Matar on 05/08/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = newsapi.org
+API_KEY = 72ff099ae16340898aba3cc923709dc0
