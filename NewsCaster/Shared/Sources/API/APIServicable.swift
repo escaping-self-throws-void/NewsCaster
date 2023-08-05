@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol APIServicable {
-    func perform<T: Decodable>(request: APIRequest) async throws -> T
+    func perform<T: Decodable>(request: some APIRequest) async throws -> T
 }

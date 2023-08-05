@@ -17,7 +17,7 @@ public struct API: APIServicable {
         self.decoder = decoder
     }
     
-    public func perform<T: Decodable>(request: APIRequest) async throws -> T {
+    public func perform<T: Decodable>(request: some APIRequest) async throws -> T {
         let response = try await network.send(request)
         
         return try decoder.decode(T.self, from: response.data)
