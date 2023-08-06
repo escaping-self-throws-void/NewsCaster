@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import API
+@testable import API
 
 struct MockAPIService: APIServicable {
     

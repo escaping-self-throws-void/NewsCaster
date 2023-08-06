@@ -2,10 +2,10 @@ import XCTest
 @testable import API
 
 final class APITests: XCTestCase {
-    func testMockAPIService() async throws {
-        let api = MockAPIService()
-        let request = MockRequest()
-        let data: ArticlesWrapper = try await api.perform(request: request)
+    func testAPIService() async throws {
+        let api: APIServicable = MockAPIService()
+        let request: APIRequest = MockRequest()
+        let data: ArticleRemote.ArticleResponse = try await api.perform(request: request)
         let lastArticle = data.articles.last
         
         let unwrappedArticle = try XCTUnwrap(lastArticle)

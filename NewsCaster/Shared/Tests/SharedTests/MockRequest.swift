@@ -6,13 +6,12 @@
 //
 
 import Foundation
-import API
+@testable import API
 
 struct MockRequest: APIRequest {
     var baseURL: URL? {
         URL(string: "MockResponse")
     }
-    var path: String {
-        ""
-    }
+    
+    var path: String { "" }
 }

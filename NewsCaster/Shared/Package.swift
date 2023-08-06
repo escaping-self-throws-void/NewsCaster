@@ -18,7 +18,7 @@ let package = Package(
             .product(name: "Utilities", package: "Core"),
         ]),
         .testTarget(
-            name: "APITests",
+            name: "SharedTests",
             dependencies: ["API"],
             resources: [ .process("MockResponse.json")]
         ),
