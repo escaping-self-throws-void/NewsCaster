@@ -19,7 +19,8 @@ let package = Package(
         .target(name: "Utilities"),
         .testTarget(
             name: "CoreTests",
-            dependencies: ["Utilities"]
+            dependencies: ["Utilities", "Networking"],
+            resources: [ .process("Mocks/MockJSON.json")]
         ),
     ]
 )

@@ -7,32 +7,26 @@
 
 import UIKit
 import Logs
-import API
+import Domain
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+    
+    private let repo = NewsRepository()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
-//        let d = JSONDecoder()
-//        d.keyDecodingStrategy = .convertFromSnakeCase
-//        let api = API(decoder: d)
         
-//        Task {
-//            let request = TopHeadlinesRequest.usaTop(50)
-//            do {
-//                let data: ArticlesWrapper = try await api.perform(request: request)
-//                data.articles.forEach {
-//                    print($0.author, $0.title, $0.source.name)
-//                }
-//            } catch {
-//                Logs<Self>.log(error)
-//            }
-//        }
-//        
-        
+        Task {
+            do {
+                let articles = try await repo.getTopHeadlines(50)
+                articles.forEach {
+                    print($0.author, $0.title, $0.publishedAt)
+                }
+            } catch {
+                Logs<Self>.log(error)
+            }
+        }
     }
-
-
 }
 

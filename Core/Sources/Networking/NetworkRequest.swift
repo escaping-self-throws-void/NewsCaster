@@ -19,3 +19,28 @@ public protocol NetworkRequest {
     var cachePolicy: URLRequest.CachePolicy { get }
 }
 
+public extension NetworkRequest {
+    var queryParams: [String: Any]? {
+        nil
+    }
+    
+    var body: RequestBody {
+        .none
+    }
+    
+    var contentType: String? {
+        nil
+    }
+    
+    var headers: [String: LosslessStringConvertible] {
+        [:]
+    }
+    
+    var timeoutInterval: Double {
+        60
+    }
+    
+    var cachePolicy: URLRequest.CachePolicy {
+        .reloadIgnoringLocalAndRemoteCacheData
+    }
+}

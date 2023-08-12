@@ -8,8 +8,7 @@
 import Foundation
 import Networking
 
-public enum TopHeadlinesRequest: APIRequest {
-    
+public enum TopHeadlinesRequest: NetworkRequest {
     case usaTop(Int)
     
     public var path: String {

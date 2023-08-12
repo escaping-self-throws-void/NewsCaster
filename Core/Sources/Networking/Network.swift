@@ -10,15 +10,20 @@ import Logs
 
 public struct Network {
     private let session: URLSession
+    private let decoder: JSONDecoder
     
-    public init(session: URLSession = .init(configuration: .default)) {
+    public init(
+        session: URLSession = .init(configuration: .default),
+        decoder: JSONDecoder = .init()
+    ) {
         self.session = session
+        self.decoder = decoder
     }
 }
 
 // MARK: - Networking
 extension Network: Networking {
-    public func send(_ request: NetworkRequest) async throws -> NetworkResponse {
+    public func perform<T: Decodable>(_ request: some NetworkRequest) async throws -> T {
         let urlRequest = try buildURLRequest(from: request)
         
         let (data, response) = try await session.data(for: urlRequest)
@@ -35,7 +40,7 @@ extension Network: Networking {
             throw NetworkError.invalidServerResponseWithStatusCode(response.statusCode)
         }
         
-        return NetworkResponse(response: response, data: data)
+        return try decoder.decode(T.self, from: data)
     }
 }
 

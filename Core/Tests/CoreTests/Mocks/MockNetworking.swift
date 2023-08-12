@@ -1,15 +1,14 @@
 //
-//  MockAPIService.swift
+//  MockNetworking.swift
 //  
 //
 //  Created by Paul Matar on 05/08/2023.
 //
 
 import Foundation
-@testable import API
+@testable import Networking
 
-struct MockAPIService: APIServicable {
-    
+struct MockNetworking: Networking {
     enum MockError: LocalizedError {
         case invalidURL
         case fileSource
@@ -24,7 +23,7 @@ struct MockAPIService: APIServicable {
         }
     }
     
-    func perform<T>(request: some APIRequest) async throws -> T where T : Decodable {
+    func perform<T>(_ request: some NetworkRequest) async throws -> T where T : Decodable {
         guard let url = request.baseURL else {
             throw MockError.invalidURL
         }

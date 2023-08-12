@@ -6,11 +6,15 @@
 //
 
 import Foundation
-@testable import API
+@testable import Networking
 
-struct MockRequest: APIRequest {
+struct MockRequest: NetworkRequest {
+    var method: RequestMethod {
+        .GET
+    }
+    
     var baseURL: URL? {
-        URL(string: "MockResponse")
+        URL(string: "MockJSON")
     }
     
     var path: String { "" }

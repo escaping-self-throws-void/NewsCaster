@@ -8,6 +8,6 @@
 import Foundation
 
 public protocol Networking {
-    func send(_ request: NetworkRequest) async throws -> NetworkResponse
+    func perform<T: Decodable>(_ request: some NetworkRequest) async throws -> T
 }
 
