@@ -7,13 +7,13 @@
 
 import Foundation
 import Networking
+import Utilities
 
 public enum TopHeadlinesRequest: NetworkRequest {
     case usaTop(Int)
     
     public var baseURL: URL? {
-        let baseURL = Bundle.main.object(forInfoDictionaryKey: "BASE_URL") as? String ?? ""
-        return URL(string: "https://\(baseURL)")
+        URL(string: Environment.baseURL)
     }
     
     public var path: String {
@@ -38,7 +38,6 @@ public enum TopHeadlinesRequest: NetworkRequest {
     }
     
     public var headers: [String: LosslessStringConvertible] {
-        let apiKey = Bundle.main.object(forInfoDictionaryKey: "API_KEY") as? String ?? ""
-        return ["X-Api-Key": apiKey]
+        ["X-Api-Key": Environment.apiKey]
     }
 }

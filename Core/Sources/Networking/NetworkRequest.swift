@@ -19,6 +19,7 @@ public protocol NetworkRequest {
     var cachePolicy: URLRequest.CachePolicy { get }
 }
 
+/// Default values
 public extension NetworkRequest {
     var queryParams: [String: Any]? {
         nil
