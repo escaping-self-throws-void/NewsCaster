@@ -16,10 +16,10 @@ final class DependencyInjectionTests: XCTestCase {
     }
     
     func testInjection() {
-        @Injected var injection: UIControl
+        @Injected var sut: UIControl
         
-        XCTAssertNotNil(injection)
-        XCTAssertFalse(injection is UISlider)
-        XCTAssertTrue(injection is UIButton)
+        XCTAssertNotNil(sut)
+        XCTAssertFalse(sut is UISlider)
+        XCTAssertTrue(sut is UIButton)
     }
 }

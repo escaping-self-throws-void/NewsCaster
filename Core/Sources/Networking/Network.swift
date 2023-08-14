@@ -36,26 +36,29 @@ extension Network: Networking {
             throw NetworkError.invalidServerResponse
         }
         
-#if DEBUG
         Logs<Self>.log(response: response, data: data)
-#endif
         
-        switch response.statusCode {
-        case 200...299:
-            break
-        case 500...599:
-            throw NetworkError.serverError
-        case 400:
-            throw NetworkError.badRequest
-        case 401:
-            throw NetworkError.unauthorized
-        case 403:
-            throw NetworkError.forbidden
-        default:
-            throw NetworkError.invalidServerResponseWithStatusCode(response.statusCode)
+        try handleResponse(response)
+
+        return try decoder.decode(T.self, from: data)
+    }
+    
+    public func fetch(from url: URL) async throws -> Data {
+        guard NetworkStatus.isConnected else {
+            throw NetworkError.noInternetConnection
         }
         
-        return try decoder.decode(T.self, from: data)
+        let (data, response) = try await session.data(from: url)
+        
+        guard let response = response as? HTTPURLResponse else {
+            throw NetworkError.invalidServerResponse
+        }
+        
+        Logs<Self>.log(response: response, data: data)
+        
+        try handleResponse(response)
+        
+        return data
     }
 }
 
@@ -99,9 +102,26 @@ extension Network {
         for (key, value) in request.headers {
             urlRequest.addValue(value.description, forHTTPHeaderField: key)
         }
-#if DEBUG
+
         Logs<Self>.log(request: urlRequest)
-#endif
+        
         return urlRequest
+    }
+    
+    private func handleResponse(_ response: HTTPURLResponse) throws {
+        switch response.statusCode {
+        case 200...299:
+            break
+        case 500...599:
+            throw NetworkError.serverError
+        case 400:
+            throw NetworkError.badRequest
+        case 401:
+            throw NetworkError.unauthorized
+        case 403:
+            throw NetworkError.forbidden
+        default:
+            throw NetworkError.invalidServerResponseWithStatusCode(response.statusCode)
+        }
     }
 }

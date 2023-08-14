@@ -10,9 +10,9 @@ import XCTest
 
 final class NetworkingTests: XCTestCase {
     func testNetworking() async throws {
-        let network: Networking = MockNetworking()
+        let sut: Networking = MockNetworking()
         let request: NetworkRequest = MockRequest()
-        let data: MockResponse = try await network.perform(request)
+        let data: MockResponse = try await sut.perform(request)
         let lastArticle = data.articles.last
         
         let unwrappedArticle = try XCTUnwrap(lastArticle)

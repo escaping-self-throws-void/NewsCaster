@@ -9,5 +9,6 @@ import Foundation
 
 public protocol Networking {
     func perform<T: Decodable>(_ request: some NetworkRequest) async throws -> T
+    func fetch(from url: URL) async throws -> Data
 }
 

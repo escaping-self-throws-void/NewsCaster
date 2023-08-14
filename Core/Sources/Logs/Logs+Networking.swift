@@ -9,6 +9,7 @@ import Foundation
 
 public extension Logs {
     static func log(request: URLRequest) {
+#if DEBUG
         let urlAsString = request.url?.absoluteString ?? ""
         let urlComponents = NSURLComponents(string: urlAsString)
         let method = request.httpMethod != nil ? "\(request.httpMethod ?? "")" : ""
@@ -35,9 +36,11 @@ public extension Logs {
         debugString += "\n--------------- END ---------------\n"
         
         logger.info("\(debugString)")
+#endif
     }
     
     static func log(response: HTTPURLResponse, data: Data) {
+#if DEBUG
         let urlString = response.url?.absoluteString
         let components = NSURLComponents(string: urlString ?? "")
         let path = "\(components?.path ?? "")"
@@ -57,10 +60,11 @@ public extension Logs {
         for (key, value) in response.allHeaderFields {
             output += "\(key): \(value)\n"
         }
-
+        
         output += "\n\(data.prettyPrintedJSONString ?? "Unable to pretty print")\n"
         output += "\n - - - - - - - - - -  END - - - - - - - - - - \n"
         
         logger.info("\(output)")
+#endif
     }
 }

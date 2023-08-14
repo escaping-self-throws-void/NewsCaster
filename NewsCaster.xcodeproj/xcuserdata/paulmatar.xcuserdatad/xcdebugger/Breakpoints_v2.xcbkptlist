@@ -7,62 +7,77 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "24474421-6A36-44BB-82E6-BB8271A678C3"
+            uuid = "34353C49-55E3-4938-86B8-CF62AE4B116A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+            filePath = "Design/Sources/Design/ImageLoader/ImageLoader.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "didFinish(coordinator:)"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "download(from:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "24474421-6A36-44BB-82E6-BB8271A678C3 - c5d11ea05fbfe69c"
+                  uuid = "34353C49-55E3-4938-86B8-CF62AE4B116A - dcd5117af76afb34"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
+                  symbolName = "(5) suspend resume partial function for Design.ImageLoader.download(from: Foundation.URL) async throws -&gt; __C.UIImage"
                   moduleName = "NewsCaster"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Design/Sources/Design/ImageLoader/ImageLoader.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "220">
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "212">
                </Location>
                <Location
-                  uuid = "24474421-6A36-44BB-82E6-BB8271A678C3 - a46639c44a468503"
+                  uuid = "34353C49-55E3-4938-86B8-CF62AE4B116A - 8c242853cfd47745"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "DataTests"
+                  symbolName = "(5) suspend resume partial function for Design.ImageLoader.download(from: Foundation.URL) async throws -&gt; __C.UIImage"
+                  moduleName = "DesignTests"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Design/Sources/Design/ImageLoader/ImageLoader.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "220">
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "120">
                </Location>
                <Location
-                  uuid = "24474421-6A36-44BB-82E6-BB8271A678C3 - f9f21bce8a097fca"
+                  uuid = "34353C49-55E3-4938-86B8-CF62AE4B116A - b679c9dd6219d144"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "FeaturesTests"
+                  symbolName = "(6) suspend resume partial function for Design.ImageLoader.download(from: Foundation.URL) async throws -&gt; __C.UIImage"
+                  moduleName = "DesignTests"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Design/Sources/Design/ImageLoader/ImageLoader.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "220">
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "34353C49-55E3-4938-86B8-CF62AE4B116A - e19fe95ef14d3347"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for Design.ImageLoader.download(from: Foundation.URL) async throws -&gt; __C.UIImage"
+                  moduleName = "DesignTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Design/Sources/Design/ImageLoader/ImageLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "52">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -70,494 +85,155 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176"
+            uuid = "132A38DB-324B-4967-A68D-52103A961F07"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "didFinish(coordinator:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176 - c5d11ea05fbfe6bd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "NewsCaster"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176 - c5d11ea05fbfe6bd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "NewsCaster"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "200">
-               </Location>
-               <Location
-                  uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176 - 226ab0a25ac3e177"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Utilities.Coordinator) -&gt; Swift.Bool in Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "NewsCaster"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176 - a46639c44a468522"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "DataTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176 - a46639c44a468522"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "DataTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "200">
-               </Location>
-               <Location
-                  uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176 - 43dd97c64f3a82e8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Utilities.Coordinator) -&gt; Swift.Bool in Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "DataTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176 - f9f21bce8a097feb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "FeaturesTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176 - f9f21bce8a097feb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "FeaturesTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "200">
-               </Location>
-               <Location
-                  uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176 - 1e49b5cc8f757821"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Utilities.Coordinator) -&gt; Swift.Bool in Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "FeaturesTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "60">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4EA249F7-1121-4F08-BE94-7B664F1C0C0C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "start(coordinator:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4EA249F7-1121-4F08-BE94-7B664F1C0C0C - c36013caaeed1fbe"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "NewsCaster"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "80">
-               </Location>
-               <Location
-                  uuid = "4EA249F7-1121-4F08-BE94-7B664F1C0C0C - a2d734aebb147c21"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "DataTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "80">
-               </Location>
-               <Location
-                  uuid = "4EA249F7-1121-4F08-BE94-7B664F1C0C0C - ff4316a47b5b86e8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "FeaturesTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "80">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "start(coordinator:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF - c36013caaeed1f5d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "NewsCaster"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "232">
-               </Location>
-               <Location
-                  uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF - c36013caaeed1f5d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "NewsCaster"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "396">
-               </Location>
-               <Location
-                  uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF - bf96cc39f764f113"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "NewsCaster"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "28">
-               </Location>
-               <Location
-                  uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF - a2d734aebb147cc2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "DataTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "232">
-               </Location>
-               <Location
-                  uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF - a2d734aebb147cc2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "DataTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "396">
-               </Location>
-               <Location
-                  uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF - de21eb5de29d928c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "DataTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "28">
-               </Location>
-               <Location
-                  uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF - ff4316a47b5b860b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "FeaturesTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "232">
-               </Location>
-               <Location
-                  uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF - ff4316a47b5b860b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "FeaturesTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "396">
-               </Location>
-               <Location
-                  uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF - 83b5c95722d26845"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "FeaturesTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "28">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "42F8F892-BEF5-4B82-8AFF-8B611E393FE5"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "start(coordinator:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "42F8F892-BEF5-4B82-8AFF-8B611E393FE5 - c36013caaeed1cd9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "NewsCaster"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "428">
-               </Location>
-               <Location
-                  uuid = "42F8F892-BEF5-4B82-8AFF-8B611E393FE5 - a2d734aebb147f46"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "DataTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "428">
-               </Location>
-               <Location
-                  uuid = "42F8F892-BEF5-4B82-8AFF-8B611E393FE5 - ff4316a47b5b858f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "FeaturesTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "428">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "900CA624-8E15-4567-929D-DD0BE5D72AEE"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+            filePath = "Core/Sources/Networking/Network.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
             endingLineNumber = "33"
-            landmarkName = "didFinish(coordinator:)"
+            landmarkName = "perform(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "900CA624-8E15-4567-929D-DD0BE5D72AEE - c5d11ea05fbfe6da"
+                  uuid = "132A38DB-324B-4967-A68D-52103A961F07 - 3f5351d695ed43d8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
+                  symbolName = "(1) suspend resume partial function for Networking.Network.send&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Networking.NetworkRequest&gt;(&#x3c4;_0_0) async throws -&gt; Foundation.Data"
                   moduleName = "NewsCaster"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Networking/Network.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
                   endingLineNumber = "33"
-                  offsetFromSymbolStart = "300">
+                  offsetFromSymbolStart = "368">
                </Location>
                <Location
-                  uuid = "900CA624-8E15-4567-929D-DD0BE5D72AEE - a46639c44a468545"
+                  uuid = "132A38DB-324B-4967-A68D-52103A961F07 - a7ff4664696a7960"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "DataTests"
+                  symbolName = "(1) suspend resume partial function for Networking.Network.perform&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_1: Networking.NetworkRequest&gt;(&#x3c4;_0_1) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "DesignTests"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Networking/Network.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
                   endingLineNumber = "33"
-                  offsetFromSymbolStart = "300">
+                  offsetFromSymbolStart = "268">
                </Location>
                <Location
-                  uuid = "900CA624-8E15-4567-929D-DD0BE5D72AEE - f9f21bce8a097f8c"
+                  uuid = "132A38DB-324B-4967-A68D-52103A961F07 - cf242653fa2abd65"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
-                  moduleName = "FeaturesTests"
+                  symbolName = "(2) await resume partial function for Networking.Network.perform&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_1: Networking.NetworkRequest&gt;(&#x3c4;_0_1) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "DesignTests"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Networking/Network.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
                   endingLineNumber = "33"
-                  offsetFromSymbolStart = "300">
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "132A38DB-324B-4967-A68D-52103A961F07 - 7fca78a233135562"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Networking.Network.perform&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_1: Networking.NetworkRequest&gt;(&#x3c4;_0_1) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "DesignTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Networking/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "132A38DB-324B-4967-A68D-52103A961F07 - 93c011ccde00a36d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Networking.Network.perform&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_1: Networking.NetworkRequest&gt;(&#x3c4;_0_1) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "DesignTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Networking/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD092ACB-0494-43E0-A30D-A1E33BC8DD62"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/Sources/Networking/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "perform(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AD092ACB-0494-43E0-A30D-A1E33BC8DD62 - 337ceae0e0a2853a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Networking.Network.send&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Networking.NetworkRequest&gt;(&#x3c4;_0_0) async throws -&gt; Foundation.Data"
+                  moduleName = "NewsCaster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Networking/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "AD092ACB-0494-43E0-A30D-A1E33BC8DD62 - 3f5351d695ed439e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Networking.Network.send&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Networking.NetworkRequest&gt;(&#x3c4;_0_0) async throws -&gt; Foundation.Data"
+                  moduleName = "NewsCaster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Networking/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "AD092ACB-0494-43E0-A30D-A1E33BC8DD62 - a7ff4664696a7926"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Networking.Network.perform&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_1: Networking.NetworkRequest&gt;(&#x3c4;_0_1) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "DesignTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Networking/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "152">
                </Location>
             </Locations>
          </BreakpointContent>

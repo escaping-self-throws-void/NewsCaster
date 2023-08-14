@@ -11,7 +11,8 @@ import Networking
 import Logs
 
 public struct ArticlesRepository: Repository {
-    @Injected private var network: Networking
+    @Injected(.singleton)
+    private var network: Networking
     private var articles = [Article]()
     
     public init() {}
