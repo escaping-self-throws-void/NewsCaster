@@ -13,37 +13,35 @@ final public class DependencyContainer {
     
     public static func register<Dependency>(
         type: Dependency.Type,
-        dependencyType: DependencyType = .automatic,
+        scope: ScopeType = .automatic,
         implementer generator: @autoclosure @escaping () -> Dependency
     ) {
         let key = String(describing: type.self)
         generators[key] = generator
         
-        if dependencyType == .singleton {
+        if scope == .singleton {
             cache[key] = generator()
         }
     }
     
     public static func resolve<Dependency>(
-        dependencyType: DependencyType = .automatic,
+        scope: ScopeType = .automatic,
         type: Dependency.Type
     ) -> Dependency? {
         let key = String(describing: type.self)
         
-        switch dependencyType {
+        switch scope {
         case .singleton:
             if let cachedDependency = cache[key] as? Dependency {
                 return cachedDependency
             } else {
                 fatalError("\(key) is not registered as singleton")
             }
-            
         case .automatic:
             if let cachedDependency = cache[key] as? Dependency {
                 return cachedDependency
             }
             fallthrough
-            
         case .new:
             if let dependency = generators[key]?() as? Dependency {
                 cache[key] = dependency

@@ -11,6 +11,11 @@ import Networking
 public enum TopHeadlinesRequest: NetworkRequest {
     case usaTop(Int)
     
+    public var baseURL: URL? {
+        let baseURL = Bundle.main.object(forInfoDictionaryKey: "BASE_URL") as? String ?? ""
+        return URL(string: "https://\(baseURL)")
+    }
+    
     public var path: String {
         switch self {
         case .usaTop:
@@ -30,5 +35,10 @@ public enum TopHeadlinesRequest: NetworkRequest {
         case .usaTop(let pageSize):
             return ["country": "us", "pageSize": "\(pageSize)"]
         }
+    }
+    
+    public var headers: [String: LosslessStringConvertible] {
+        let apiKey = Bundle.main.object(forInfoDictionaryKey: "API_KEY") as? String ?? ""
+        return ["X-Api-Key": apiKey]
     }
 }

@@ -7,7 +7,7 @@ let package = Package(
     name: "Core",
     platforms: [.iOS(.v15)],
     products: [
-        .library(name: "Networking", targets: ["Networking"] ),
+        .library(name: "Networking", targets: ["Networking"]),
         .library(name: "Logs", targets: ["Logs"]),
         .library(name: "Utilities", targets: ["Utilities"])
     ],

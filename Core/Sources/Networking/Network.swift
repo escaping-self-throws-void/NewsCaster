@@ -2,7 +2,7 @@
 //  Network.swift
 //  NewsCaster
 //
-//  Created by Paul Matar on 29/07/2023.
+//  Created by Paul Matar on 13/08/2023.
 //
 
 import Foundation
@@ -24,6 +24,10 @@ public struct Network {
 // MARK: - Networking
 extension Network: Networking {
     public func perform<T: Decodable>(_ request: some NetworkRequest) async throws -> T {
+        guard NetworkStatus.isConnected else {
+            throw NetworkError.noInternetConnection
+        }
+        
         let urlRequest = try buildURLRequest(from: request)
         
         let (data, response) = try await session.data(for: urlRequest)
@@ -36,7 +40,18 @@ extension Network: Networking {
         Logs<Self>.log(response: response, data: data)
 #endif
         
-        guard (200..<300) ~= response.statusCode  else {
+        switch response.statusCode {
+        case 200...299:
+            break
+        case 500...599:
+            throw NetworkError.serverError
+        case 400:
+            throw NetworkError.badRequest
+        case 401:
+            throw NetworkError.unauthorized
+        case 403:
+            throw NetworkError.forbidden
+        default:
             throw NetworkError.invalidServerResponseWithStatusCode(response.statusCode)
         }
         

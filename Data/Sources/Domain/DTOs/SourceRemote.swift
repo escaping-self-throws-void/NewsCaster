@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct SourceRemote: Decodable {
-    public let id: String?
-    public let name: String?
+struct SourceRemote: Decodable {
+    let id: String?
+    let name: String?
 }

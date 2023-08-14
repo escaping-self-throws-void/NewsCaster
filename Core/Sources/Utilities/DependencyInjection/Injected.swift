@@ -12,8 +12,8 @@ public struct Injected<Dependency> {
     
     private var dependency: Dependency
     
-    public init(_ dependencyType: DependencyType = .new) {
-        guard let dependency = DependencyContainer.resolve(dependencyType: dependencyType, type: Dependency.self) else {
+    public init(_ scope: ScopeType = .new) {
+        guard let dependency = DependencyContainer.resolve(scope: scope, type: Dependency.self) else {
             fatalError("No dependency of type \(String(describing: Dependency.Type.self)) registered!")
         }
         

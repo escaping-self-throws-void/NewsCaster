@@ -3,4 +3,196 @@
    uuid = "7690EF60-A439-46C5-8EB1-8EB453ED11AD"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24474421-6A36-44BB-82E6-BB8271A678C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "didFinish(coordinator:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "didFinish(coordinator:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176 - c5d11ea05fbfe6bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
+                  moduleName = "NewsCaster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176 - c5d11ea05fbfe6bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
+                  moduleName = "NewsCaster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "2E5D0FB3-504C-4BFF-87AB-44D60F205176 - 226ab0a25ac3e177"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Utilities.Coordinator) -&gt; Swift.Bool in Utilities.BaseCoordinator.didFinish(coordinator: Utilities.BaseCoordinator) -&gt; ()"
+                  moduleName = "NewsCaster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EA249F7-1121-4F08-BE94-7B664F1C0C0C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "start(coordinator:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "start(coordinator:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF - c36013caaeed1f5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
+                  moduleName = "NewsCaster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF - c36013caaeed1f5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
+                  moduleName = "NewsCaster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "396">
+               </Location>
+               <Location
+                  uuid = "F00D8E52-5740-498D-9EBA-7B5F635B4BFF - bf96cc39f764f113"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Utilities.BaseCoordinator.start(coordinator: Utilities.BaseCoordinator) -&gt; ()"
+                  moduleName = "NewsCaster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulmatar/Desktop/NewsCaster/Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42F8F892-BEF5-4B82-8AFF-8B611E393FE5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "start(coordinator:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "900CA624-8E15-4567-929D-DD0BE5D72AEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Core/Sources/Utilities/Coordination/BaseCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "didFinish(coordinator:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
